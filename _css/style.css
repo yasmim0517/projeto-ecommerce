@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav#menu ul {
@@ -20,9 +21,6 @@ nav#menu li {
     background: rgb(3, 0, 36);
     background: linear-gradient(90deg, rgb(255, 63, 162) 0%, rgb(250, 64, 173) 35%, rgb(230, 63, 174) 100%);
     padding: 12px;
-
-
-
 }
 
 body {
@@ -36,4 +34,21 @@ header {
     padding-bottom: 20px;
     position: relative;
 
+}
+/*pseudoclasses para estilizaçâo de menu de navegaçâo*/
+nav#menu a:link{
+    text-decoration: none;
+    color: antiquewhite;
+     font-weight: bold;
+}
+nav#menu a:visited{
+    text-decoration: none;
+    color: antiquewhite;
+     font-weight: bold;
+}
+nav#menu a:hover{
+    background: rgb(240, 76, 119);
+}
+nav#menu li:hover{
+    ackground: rgb(3, 0, 36);
 }
