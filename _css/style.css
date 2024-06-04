@@ -50,5 +50,26 @@ nav#menu a:hover{
     background: rgb(240, 76, 119);
 }
 nav#menu li:hover{
-    ackground: rgb(3, 0, 36);
+    background: rgb(3, 0, 36);
+}
+
+.produtos img{
+    max-width: 200px;
+}
+
+.produtos{
+    color: white;
+}
+.precoDesc{
+    font-size: 25px;
+}
+
+.produtos img{
+    max-width: 200px;
+}
+.produtos{
+    color: white;
+}
+.precoDesc{
+    font: size 25px;;
 }
